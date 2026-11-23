@@ -29,19 +29,29 @@ Technology-specific standards for Spring Boot, React, and Angular belong to late
 
 ```text
 AGENTS.md
-CLAUDE.md
-GEMINI.md
 README.md
+adapters/
+  claude-code/
+    CLAUDE.md
+  gemini/
+    GEMINI.md
+  chatgpt-codex/
+    CHATGPT.md
 docs/engineering/
   principles.md
   architecture-governance.md
   decision-making.md
   quality-governance.md
+  review-checklist.md
   workflow/
     interaction-protocol.md
     architecture-mode.md
     implementation-mode.md
     approval-policy.md
+    project-modes.md
+    greenfield-quickstart.md
+    scenarios.md
+    project-context-template.md
   templates/
     adr-template.md
     technical-design-template.md
