@@ -1,13 +1,12 @@
 # Gemini CLI Adapter
 
-Read and follow `AGENTS.md` as the canonical engineering standard.
+@AGENTS.md
 
 ## Gemini-specific guidance
 
-- Consult the relevant documents under `docs/engineering/` before consequential work.
-- Keep Gemini-specific configuration and instructions here; do not duplicate engineering
-  principles from `AGENTS.md`.
-- Configure Gemini CLI context-file discovery explicitly if the environment does not
-  automatically load `GEMINI.md`.
-- Verify available tools, permissions, and command execution results in the current
-  environment. Never claim a check ran unless it actually ran.
+- `AGENTS.md` is the canonical engineering standard. Do not duplicate its rules here.
+- Consult the documents routed from `AGENTS.md` section 14 before consequential work.
+- If the environment does not process the `@AGENTS.md` import above, configure Gemini CLI
+  context-file discovery explicitly, or read `AGENTS.md` at session start.
+- Verify available tools, permissions, and command results in the current environment.
+  Never claim a check ran unless it actually ran.
