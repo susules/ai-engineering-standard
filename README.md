@@ -37,6 +37,8 @@ adapters/
     GEMINI.md
   chatgpt-codex/
     CHATGPT.md
+  amazon-q/
+    AMAZONQ.md
 docs/engineering/
   principles.md
   architecture-governance.md
@@ -89,8 +91,16 @@ behavior and configure its adapter accordingly.
 
 Use semantic versioning:
 - MAJOR: incompatible changes to the standard's behavioral contract.
-- MINOR: backward-compatible principles, workflows, or capabilities.
+- MINOR: backward-compatible principles, workflows, capabilities, or new adapter.
 - PATCH: clarifications and corrections that do not change intended behavior.
+
+## Changelog
+
+### v1.2.0
+- Added §3 Session Startup — agent reads PROJECT_CONTEXT.md at session start,
+  resumes without re-asking context, works autonomously within agreed scope.
+- Added Amazon Q adapter (`adapters/amazon-q/AMAZONQ.md`).
+- Renumbered sections 3–14 → 4–15.
 
 ## Important limitation
 
